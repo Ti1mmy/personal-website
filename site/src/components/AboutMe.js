@@ -7,3 +7,11 @@ export function AboutMe() {
         </div>
     )
 }
+
+export function Program() {
+    return (
+        <div className="Program">
+            
+        </div>
+    )
+}

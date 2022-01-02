@@ -4,7 +4,6 @@ import Tooltip from 'react-bootstrap/Tooltip'
 import Overlay from 'react-bootstrap/Overlay'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import { At } from 'react-bootstrap-icons'
-import '../bootstrap/css/bootstrap.min.css';
 import '../App.css';
 
 export function EmailButton() {

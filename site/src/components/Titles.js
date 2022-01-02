@@ -1,4 +1,3 @@
-import '../bootstrap/css/bootstrap.min.css';
 import '../App.css';
 
 import { EmailButton } from "./EmailButton"
