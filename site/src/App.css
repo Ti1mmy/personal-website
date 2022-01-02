@@ -44,6 +44,11 @@
   background-color: #CDCDCD;
   border-color: #000000;
 }
+#email-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+}
 #social-icon {
   background-color: #FFFFFF;
   color: #000000;
