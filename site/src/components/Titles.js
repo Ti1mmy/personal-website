@@ -22,3 +22,16 @@ export function ContactWidgets() {
         </div>
     )
 }
+
+export function Program() {
+    return (
+        <div className="MyProgram">
+            <div>
+            1B <a id="program-link" href="https://uwaterloo.ca/computing-financial-management/" target="_blank" rel="noopener noreferrer">
+                Computing and Financial Management Student
+            </a> 
+            </div>
+            <> @ The University of Waterloo </>
+        </div>
+    )
+}
