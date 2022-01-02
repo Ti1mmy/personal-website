@@ -1,9 +1,10 @@
 import './App.css';
+import { MyName } from './components/Titles';
 
 function App() {
   return (
     <div className="App">
-      <h1>Timothy Zheng</h1>
+      <MyName />
     </div>
   );
 }
