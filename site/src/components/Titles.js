@@ -19,7 +19,7 @@ export function ContactWidgets() {
             <GithubIcon />
             <LinkedinIcon />
             <TwitterIcon />
-            {/* <EmailButton /> */}
+            <EmailButton />
         </div>
     )
 }
