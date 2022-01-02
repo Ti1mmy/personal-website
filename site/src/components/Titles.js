@@ -1,8 +1,8 @@
 import '../bootstrap/css/bootstrap.min.css';
 import '../App.css';
 
-import { EmailButton } from "./EmailButton"
-import { GithubIcon, LinkedinIcon, TwitterIcon } from './IconsSocials';
+// import { EmailButton } from "./EmailButton"
+// import { GithubIcon, LinkedinIcon, TwitterIcon } from './IconsSocials';
 
 export function MyName() {
     return (
