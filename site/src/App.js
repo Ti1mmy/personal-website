@@ -1,5 +1,6 @@
 import './App.css';
-import { MyName, ContactWidgets } from './components/Titles';
+
+import { MyName, ContactWidgets } from './components/Titles.js'
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import '../App.css';
 
+import { EmailButton } from "./EmailButton"
 import { GithubIcon, LinkedinIcon, TwitterIcon } from './IconsSocials';
 
 export function MyName() {
@@ -17,6 +18,7 @@ export function ContactWidgets() {
             <GithubIcon />
             <LinkedinIcon />
             <TwitterIcon />
+            <EmailButton />
         </div>
     )
 }
