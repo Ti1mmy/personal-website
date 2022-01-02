@@ -1,10 +1,11 @@
 import './App.css';
-import { MyName } from './components/Titles';
+import { MyName, ContactWidgets } from './components/Titles';
 
 function App() {
   return (
     <div className="App">
       <MyName />
+      <ContactWidgets /> 
     </div>
   );
 }
