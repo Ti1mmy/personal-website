@@ -11,16 +11,17 @@ body {
   margin: 0px;
 }
 .Footer {
-  position:absolute;
+  position:flex;
   bottom: 0;
   width: 100%;
-  height: 115px;
+  height: 0px;
   background: #FFFFFF;
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
   border-top: 2px solid black;
   padding: 15px;
-  margin: 0px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 .MyProgram {
   white-space: pre-wrap;
@@ -32,6 +33,14 @@ body {
 .MyName {
   font-family: 'Lato', sans-serif;
   font-size: 48px;
+}
+.AboutMe {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+  color: black;
+  margin: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .ContactWidgets {
   position: relative;
@@ -50,13 +59,13 @@ body {
   background-color: #FFFFFF;
   color: grey;
   border: 1px solid #000000;
-  padding: 5px 20.5px;
+  padding: 10px 7.5px;
 }
 #email-copy-tooltip > .tooltip-inner {
   background-color: #FFFFFF;
   color: grey;
   border: 1px solid #000000;
-  padding: 5px 12px;
+  padding: 10px 35px;
 }
 #email-button {
   color: #000000;
@@ -81,4 +90,59 @@ body {
 #program-link {
   color: #000000;
   text-decoration: none;
+}
+.ResumeDisplay {
+  width: 50%;
+  height: 666px;
+}
+.DownloadButtons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.ResumeButton {
+  color: #000000;
+  border-color: #000000;
+}
+.ResumeButton #resume-icon {
+  color: #000000;
+}
+.ResumeButton #resume-button {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #000000;
+}
+.ResumeButton #resume-button:hover {
+  color: #000000;
+  background-color: #CDCDCD;
+  border-color: #000000;
+}
+.ResumeButton #resume-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: white;
+}
+.PortfolioTitle {
+  white-space: pre-wrap;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 100px !important;
+  margin: 25px;
+}
+.PortfolioWidgets {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#github-pin-custom {
+  width: 445px;
+  height: 192px;
 }

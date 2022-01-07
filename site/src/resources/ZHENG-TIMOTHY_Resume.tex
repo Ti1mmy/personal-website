@@ -1,0 +1,224 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Timothy Zheng} \\ \vspace{4pt}
+    \small Computing and Financial Management 1B
+    \\ \vspace{2pt}
+    \small Toronto, ON $|$ 
+    \href{mailto:timothy.zheng@uwaterloo.ca}{\underline{timothy.zheng@uwaterloo.ca}} $|$ 
+    \small Cell provided on request
+    \\ \vspace{2pt}
+    \href{https://timothyz.me}{\underline{timothyz.me}} $| $
+    \href{https://linkedin.com/in/timothy-zheng21}{\underline{linkedin.com/in/timothy-zheng21}} $|$
+    \href{https://github.com/Ti1mmy}{\underline{github.com/Ti1mmy}}
+\end{center}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Waterloo, ON}
+      {Candidate for Bachelor of Computing and Financial Management (Majors: Computer Science, Finance)}{2021-2026}
+          \resumeItemListStart
+            \resumeItem{Dean's list - GPA: 3.80 $|$ Term Average: $89.80\%$}
+            \resumeItem{Clubs and Activities: UW Badminton Club Executive, UW Formula Motorsports Business Section.}
+            \resumeItem{Relevant Coursework: Functional Programming, Algorithm Design \& Data Abstraction, Financial Data Analysis.}
+            \resumeItem{Lead the creation of a dynamic finance program that achieved the highest grade (97.5\%) \& \href{https://uwaterloo.ca/school-of-accounting-and-finance/news/congratulations-teams-won-cfm-101-team-competition}{\underline{{2nd place in contest}}}.}
+            \resumeItem{International Baccalaureate Diploma and High School Diploma with Honours from St. Robert CHS (2021).}
+
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Work EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IMOxKids2AI}{Jun – Oct 2021}
+      {Python Instructor}{Dublin, Ireland (Remote)}
+      \resumeItemListStart
+        \resumeItem{Instructed a class of six elementary students from Dublin, Ireland virtually from Canada in Python.}
+        \resumeItem{Covered intermediate programming concepts (functions, dictionaries, recursion, search and sorting algorithms).}
+        \resumeItem{Classes delivered weekly over the span of twenty weeks.}
+      \resumeItemListEnd
+     
+    \resumeSubHeadingListEnd
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Community \& Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {High School Coding Club}{Oct 2020 – Jun 2021}
+      {Director of Operations}{Thornhill, ON}
+      \resumeItemListStart
+        \resumeItem{Managed, instructed and directed a 150-member club of high school students interested in coding.}
+        \resumeItem{Prepared students for the CEMC Canadian Computing Competition in the Junior and Senior stages.}
+        \resumeItem{Co-created original \textbf{code} and \textbf{instructional material} for the club's own \href{https://github.com/STR-Coding-Club/RobCoin}{\underline{Proof of Work Cryptocurrency}}.}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://gist.github.com/Ti1mmy/03a35f7816a1a3ba7c00df52d2bf80d0}{\underline{Smart Stock Portfolio Generator}}} $|$ 
+          \emph{Jupyter Notebook, Pandas, Matplotlib, Numpy, yFinance}}{Oct -- Nov 2021}
+          \resumeItemListStart
+            \resumeItem{My runner-up course contest submission from CFM 101.}
+            \resumeItem{Quantitatively analyzes live financial data to produce the most volatile portfolio from any list of stock tickers.}
+            \resumeItem{Calculated stock beta, standard deviation, Sharpe ratio, and stock option interest ratios to rank stocks and used Monte Carlo methods to determine optimal portfolio weightings.}
+            \resumeItem{Optimized code execution by threading and caching API calls to our financial data provider, yielding a \textbf{20x decrease} in our program's total run time.}
+          \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+    
+    
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/Ti1mmy/DiscardApp}{\underline{DiscardApp}}} $|$ 
+          \emph{JavaScript, HTML, Google Firebase, BeautifulSoup4, Google Places API}}{Jun 2021}
+          \resumeItemListStart
+            \resumeItem{AtlasHacks II First Place Winner, byteKode Summer 2021 Runner-up.}
+            \resumeItem{Displays the best credit card to use in your wallet by determining where you are shopping using the \space \space \space \space \space \space \space \space \space \space \space \textbf{Google Places API}.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+    
+          
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/Ti1mmy/CheckinWithme}{\underline{CheckinWithMe}}} $|$ 
+          \emph{Python, Natural Language Processing, AstraDB, Requests, Discord.py}}{May 2021}
+          \resumeItemListStart
+            \resumeItem{Mental Health Hacks Hackathon Winner: Best use of Linode Cloud, Best Domain Name from Domain.com.}
+            \resumeItem{A Discord bot that uses \textbf{tone/sentiment analysis} to detect and respond to users' moods leading to an increased awareness \textbf{about their mental health}.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, Racket, HTML/CSS, Markdown, \LaTeX.} \\
+     \textbf{Libraries}{: Pandas, Matplotlib, yFinance, Flask, ReactJS, MySQL, Bootstrap5, BeautifulSoup4, Google Cloud Platform.} \\
+     \textbf{Tools/Applications}{: Git, GitHub, VS Code, PyCharm, Jupyter Notebook, PuTTY, SSH, Ubuntu, GNU Bash.}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}

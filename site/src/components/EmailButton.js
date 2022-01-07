@@ -15,7 +15,7 @@ export function EmailButton() {
     
     const renderEmail = (props) => (
         <Tooltip id="email-hover-tooltip" {...props}>
-          me@timothyz.me
+          timothy.zheng@uwaterloo.ca
         </Tooltip>
       );
 
@@ -29,7 +29,7 @@ export function EmailButton() {
             
             onClick={
                 () => { 
-                    navigator.clipboard.writeText('me@timothyz.me'); 
+                    navigator.clipboard.writeText('timothy.zheng@uwaterloo.ca'); 
                     setShow(!show); 
                     setTimeout(setShow, 750, show)
                 }
