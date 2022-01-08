@@ -1,13 +1,13 @@
-import ResumePDF from '../resources/ZHENG-TIMOTHY_Resume.pdf'
-import ResumeZip from '../resources/ZHENG-TIMOTHY_Resume.tex'
+import ResumePDF from '../resources/ZHENG-TIMOTHY_Resume.pdf';
+import ResumeZip from '../resources/ZHENG-TIMOTHY_Resume.tex';
 
-import { useState, useRef } from 'react'
-import Button from 'react-bootstrap/Button'
+import { useState, useRef } from 'react';
+import Button from 'react-bootstrap/Button';
 
-import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons'
+import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 
 import '../bootstrap/css/bootstrap.min.css';
-import '../App.css';
+import '../App.min.css';
 
 export function DownloadButtons() {
     return (
@@ -16,7 +16,7 @@ export function DownloadButtons() {
             <LatexButton />
         </div>
     )
-}
+};
 
 function ResumeButton() {
     const [show, setShow] = useState(false);
@@ -36,8 +36,8 @@ function ResumeButton() {
                     <a id="resume-icon" href={ResumePDF} target="_blank" rel="noopener noreferrer"><FileEarmarkPdfFill /></a>
             </Button>
         </div>
-    );
-  }
+    )
+  };
 
   function LatexButton() {
     const [show, setShow] = useState(false);
@@ -57,8 +57,8 @@ function ResumeButton() {
                     <a id="resume-icon" href={ResumeZip} target="_blank" rel="noopener noreferrer"><FileEarmarkZipFill /></a>
             </Button>
         </div>
-    );
-  }
+    )
+  };
 
   export function ResumeDisplay() {
       return (

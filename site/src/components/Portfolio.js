@@ -1,6 +1,7 @@
-import portfolioGeneratorGist from "../resources/portfolioGeneratorGist.png"
-import { SepDot } from "./Misc.js"
-import '../App.css';
+import portfolioGeneratorGist from "../resources/portfolioGeneratorGist.png";
+import { SepDot } from "./Misc.js";
+
+import '../App.min.css';
 
 export function Portfolio() {
     return (
@@ -9,7 +10,7 @@ export function Portfolio() {
             <GithubPins />
         </div>
     )
-}
+};
 
 function PortfolioTitle() {
     return (
@@ -18,7 +19,7 @@ function PortfolioTitle() {
             <div>Projects</div>
         </div>
     )
-}
+};
 
 function GithubPins() {
     return (

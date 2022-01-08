@@ -1,11 +1,11 @@
-import './App.css';
+import './App.min.css';
 
-import { AboutMe } from './components/AboutMe.js'
-import { MyName, ContactWidgets, Program} from './components/Titles.js'
-import { Footer } from './components/Footer.js'
-import { DownloadButtons, ResumeDisplay } from './components/Resume.js'
-import { Portfolio } from './components/Portfolio.js'
- 
+import { AboutMe } from './components/AboutMe.js';
+import { MyName, ContactWidgets, Program} from './components/Titles.js';
+import { Footer } from './components/Footer.js';
+import { DownloadButtons, ResumeDisplay } from './components/Resume.js';
+import { Portfolio } from './components/Portfolio.js';
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +18,7 @@ function App() {
       <Portfolio />
       <Footer />
     </div>
-  );
-}
+  )
+};
 
 export default App;

@@ -1,5 +1,6 @@
-import '../App.css';
-import { SepDot } from './Misc.js'
+import { SepDot } from './Misc.js';
+
+import '../App.min.css';
 
 export function Footer() {
     return (

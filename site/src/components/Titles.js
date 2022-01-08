@@ -1,6 +1,6 @@
-import '../App.css';
+import '../App.min.css';
 
-import { EmailButton } from "./EmailButton"
+import { EmailButton } from "./EmailButton";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from './IconsSocials';
 
 export function MyName() {
@@ -9,7 +9,7 @@ export function MyName() {
             Timothy Zheng
         </h1>
     )
-}
+};
 
 export function ContactWidgets() {
 
@@ -21,7 +21,7 @@ export function ContactWidgets() {
             <EmailButton />
         </div>
     )
-}
+};
 
 export function Program() {
     return (

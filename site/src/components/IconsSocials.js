@@ -1,6 +1,6 @@
-import { Github, Linkedin, Twitter } from 'react-bootstrap-icons'
+import { Github, Linkedin, Twitter } from 'react-bootstrap-icons';
 
-import '../App.css';
+import '../App.min.css';
 
 export function GithubIcon() {
     return (
@@ -8,7 +8,7 @@ export function GithubIcon() {
             <Github />
         </a>
     )
-}
+};
 
 
 export function LinkedinIcon() {
@@ -17,7 +17,7 @@ export function LinkedinIcon() {
             <Linkedin />
         </a>
     )
-}
+};
 
 export function TwitterIcon() {
     return (
@@ -25,4 +25,4 @@ export function TwitterIcon() {
             <Twitter />
         </a>
     )
-}
+};
