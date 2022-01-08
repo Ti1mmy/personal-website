@@ -1,5 +1,3 @@
-import ResumePDF from '../resources/ZHENG-TIMOTHY_Resume.pdf';
-import ResumeZip from '../resources/ZHENG-TIMOTHY_Resume.tex';
 import { SepDot } from "./Misc.js";
 
 import { useState, useRef } from 'react';
@@ -8,6 +6,12 @@ import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 
 import '../bootstrap/css/bootstrap.min.css';
 import '../App.min.css';
+
+// pdf-js
+// import { Document, Page, Outline, pdfjs} from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 
 export function DownloadButtons() {
     return (
@@ -33,13 +37,13 @@ function ResumeButton() {
                         setShow(!show); 
                     }
                 }>
-                    <a id="resume-icon" href={ResumePDF} target="_blank" rel="noopener noreferrer"><FileEarmarkPdfFill /></a>
+                    <a id="resume-icon" href={process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"} target="_blank" rel="noopener noreferrer"><FileEarmarkPdfFill /></a>
             </Button>
         </div>
     )
   };
 
-  function LatexButton() {
+function LatexButton() {
     const [show, setShow] = useState(false);
     const target = useRef(null);
 
@@ -54,25 +58,35 @@ function ResumeButton() {
                         setShow(!show); 
                     }
                 }>
-                    <a id="resume-icon" href={ResumeZip} target="_blank" rel="noopener noreferrer"><FileEarmarkZipFill /></a>
+                    <a id="resume-icon" href={process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.tex"} target="_blank" rel="noopener noreferrer"><FileEarmarkZipFill /></a>
             </Button>
         </div>
-    )
-  };
+        )
+};
 
-  export function ResumeDisplay() {
-      return (
+export function ResumeDisplay() {
+    const resumedir = process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"
+
+    return (
+        // <div className="ResumeDisplay">
+        //     <ResumeTitle />
+        //     <Document 
+        //         file={resumedir}>
+        //             <Page pageNumber={1} renderTextLayer={false}/>
+        //     </Document>
+        // </div>
         <div>
             <ResumeTitle />
             <iframe
-                    className="ResumeDisplay"
-                    src={ResumePDF}
-                    type='application/pdf'
-                    title=" "
-                />
+                className="ResumeDisplay"
+                src={resumedir}
+                type='application/pdf'
+                title=" "
+            />
         </div>
-      )
-  }
+    )
+};
+
   function ResumeTitle() {
     return (
         <div className="ResumeTitle">

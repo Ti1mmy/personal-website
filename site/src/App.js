@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <MyName />
       <Program />
-      <ContactWidgets /> 
+      <ContactWidgets />
       <AboutMe />
       <ResumeDisplay />
       <DownloadButtons />

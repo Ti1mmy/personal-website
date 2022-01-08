@@ -1,4 +1,3 @@
-import portfolioGeneratorGist from "../resources/portfolioGeneratorGist.png";
 import { SepDot } from "./Misc.js";
 
 import '../App.min.css';
@@ -31,7 +30,7 @@ function GithubPins() {
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=time-management-school-app&repo=SchoolDule" alt="SchoolDule" />
             </a>
             <a href="https://gist.github.com/Ti1mmy/03a35f7816a1a3ba7c00df52d2bf80d0" target="_blank" rel="noopener noreferrer">
-                <img id="github-pin-custom" src={portfolioGeneratorGist} alt="portfolioGenerator" />
+                <img id="github-pin-custom" src={process.env.PUBLIC_URL + "./resources/portfolioGeneratorGist.png"} alt="portfolioGenerator" />
             </a>
             <a href="https://github.com/Ti1mmy/personal-website" target="_blank" rel="noopener noreferrer">
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=Ti1mmy&repo=personal-website" alt="personal-website" />
