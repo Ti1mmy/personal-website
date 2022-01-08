@@ -1,9 +1,9 @@
 import ResumePDF from '../resources/ZHENG-TIMOTHY_Resume.pdf';
 import ResumeZip from '../resources/ZHENG-TIMOTHY_Resume.tex';
+import { SepDot } from "./Misc.js";
 
 import { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
-
 import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 
 import '../bootstrap/css/bootstrap.min.css';
@@ -63,12 +63,21 @@ function ResumeButton() {
   export function ResumeDisplay() {
       return (
         <div>
-        <iframe
-                className="ResumeDisplay"
-                src={ResumePDF}
-                type='application/pdf'
-                title=" "
-              />
+            <ResumeTitle />
+            <iframe
+                    className="ResumeDisplay"
+                    src={ResumePDF}
+                    type='application/pdf'
+                    title=" "
+                />
         </div>
       )
   }
+  function ResumeTitle() {
+    return (
+        <div className="ResumeTitle">
+            <SepDot /> 
+            <div>Résumé</div>
+        </div>
+    )
+};

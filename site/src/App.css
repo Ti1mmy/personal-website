@@ -91,6 +91,14 @@ body {
   color: #000000;
   text-decoration: none;
 }
+.ResumeTitle {
+  white-space: pre-wrap;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 75px !important;
+  margin: 25px;
+}
 .ResumeDisplay {
   width: 50%;
   height: 666px;
