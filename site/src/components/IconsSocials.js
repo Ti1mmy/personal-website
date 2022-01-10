@@ -13,7 +13,7 @@ export function GithubIcon() {
 
 export function LinkedinIcon() {
     return (
-        <a id="social-icon" href="http://www.linkedin.com/in/Timothy-Zheng21" target="_blank" rel="noopener noreferrer">
+        <a id="social-icon" href="http://www.linkedin.com/in/timothyzheng" target="_blank" rel="noopener noreferrer">
             <Linkedin />
         </a>
     )
