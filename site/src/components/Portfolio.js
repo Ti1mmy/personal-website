@@ -35,8 +35,8 @@ function GithubPins() {
             <a href="https://github.com/Ti1mmy/personal-website" target="_blank" rel="noopener noreferrer">
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=Ti1mmy&repo=personal-website" alt="personal-website" />
             </a>
-            <a href="https://github.com/Ti1mmy/DiscardApp" target="_blank" rel="noopener noreferrer">
-                <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=Ti1mmy&repo=DiscardApp" alt="DiscardApp" />
+            <a href="https://github.com/DiscardApp/DiscardApp" target="_blank" rel="noopener noreferrer">
+                <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=DiscardApp&repo=DiscardApp" alt="DiscardApp" />
             </a>
             <a href="https://github.com/Ti1mmy/CheckinWithme" target="_blank" rel="noopener noreferrer">
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=Ti1mmy&repo=CheckinWithme" alt="CheckinWithme" />
