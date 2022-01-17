@@ -39,10 +39,10 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.7in}
+\addtolength{\evensidemargin}{-0.7in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.9in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -54,7 +54,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-5.245pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -119,24 +119,35 @@
     \href{https://linkedin.com/in/timothyzheng}{\underline{linkedin.com/in/timothyzheng}} $|$
     \href{https://github.com/Ti1mmy}{\underline{github.com/Ti1mmy}}
 \end{center}
+
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Waterloo}{2021 - 2026}
+      {University of Waterloo}{2021 - Present}
       {Candidate for Bachelor of Computing and Financial
 Management}{Waterloo, ON}
           \resumeItemListStart
-            \resumeItem{Dean's list - GPA: 3.80 $|$ Cumulative Grade: $89.80\%$}
-            \resumeItem{Relevant Coursework: Functional Programming, Algorithm Design \& Data Abstraction, Financial Data Analysis.}
-            \resumeItem{Lead the creation of a dynamic finance program that achieved the highest grade (97.5\%) \& \href{https://uwaterloo.ca/school-of-accounting-and-finance/news/congratulations-teams-won-cfm-101-team-competition}{\underline{{2nd place in contest}}}.}
+            \resumeItem{Dean's List.}
+            \resumeItem{Relevant Coursework: Financial Data Analysis, Functional Programming, Algorithm Design \& Data Abstraction.}
             \resumeItem{Clubs and Activities: UW Badminton Club Executive, UW Formula Motorsports Business Section.}
-            \resumeItem{International Baccalaureate Diploma and High School Diploma with Honours from St. Robert CHS (2021).}
 
             
         \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Skills Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, HTML/CSS, SQL, Markdown, LaTeX.} \\
+     \textbf{Technical Skills}{: CI/CD, Web Scraping, SSH/Linux Shell, Microsoft Office Suite (Excel, Word, Outlook).} \\
+     \textbf{Libraries}{: Pandas, Matplotlib, yFinance, Flask, React, Bootstrap, BeautifulSoup4, Google Cloud Platform.} \\
+     \textbf{Tools/Applications}{: Azure Static Web Apps, Heroku, Git, VS Code, Jupyter Notebook, PuTTY, Ubuntu, GNU Bash.}
+    }}
+ \end{itemize}
 
 %-----------Work EXPERIENCE-----------
 \section{Work Experience}
@@ -144,10 +155,10 @@ Management}{Waterloo, ON}
 
     \resumeSubheading
       {IMOxKids2AI}{Jun – Oct 2021}
-      {Python Instructor}{Dublin, Ireland (Remote)}
+      {Python Instructor}{Remote}
       \resumeItemListStart
-        \resumeItem{Instructed a class of six elementary students from Dublin, Ireland virtually from Canada using Zoom.}
-        \resumeItem{Taught intermediate programming concepts (functions, data structures, recursion, search and sorting algorithms).}
+        \resumeItem{Instructed a class of six students from Dublin, Ireland virtually using Zoom, teaching intermediate programming concepts (\textbf{functions, data structures, recursion, search and sorting algorithms}) over a \textbf{five month} term.}
+        \resumeItem{Engaged with students and parents with weekly personalized progress reports and presented live visualizations of sort and search algorithms using playing cards, resulting in an end-of-term class average of \textbf{94.6\%}.}
       \resumeItemListEnd
      
     \resumeSubHeadingListEnd
@@ -160,7 +171,7 @@ Management}{Waterloo, ON}
       {Director of Operations}{Oct 2020 – Jun 2021}
       {St. Robert Coding Club}{Thornhill, ON}
       \resumeItemListStart
-        \resumeItem{Managed, instructed and directed a 150-member club of high school students interested in coding.}
+        \resumeItem{Directed, instructed and managed a \textbf{150-member} club of high school students interested in coding.}
         \resumeItem{Prepared students for the CEMC Canadian Computing Competition in the Junior and Senior stages.}
       \resumeItemListEnd
 
@@ -172,12 +183,11 @@ Management}{Waterloo, ON}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{\href{https://gist.github.com/Ti1mmy/03a35f7816a1a3ba7c00df52d2bf80d0}{\underline{Smart Stock Portfolio Generator}}} $|$ 
-          \emph{Jupyter Notebook, Pandas, Matplotlib, Numpy, yFinance}}{Oct -- Dec 2021}
+          \emph{Jupyter Notebook, Pandas, Matplotlib, NumPy, yFinance}}{Oct -- Dec 2021}
           \resumeItemListStart
-            \resumeItem{\textbf{Runner-up} contest submission from Computational Finance course.}
-            \resumeItem{Quantitatively analyzes live financial data to produce the most volatile portfolio from any list of stock tickers.}
-            \resumeItem{Calculated stock beta, standard deviation, Sharpe ratio, and stock option interest ratios to rank stocks and used Monte Carlo methods to determine optimal portfolio weights.}
-            \resumeItem{Optimized code execution by threading and caching API calls to our financial data source, yielding a \textbf{20x decrease} in our program's total run time.}
+            \resumeItem{Led the creation of a dynamic finance program in \textbf{Python} with 2 classmates that quantitatively analyzed live financial data to produce the most volatile portfolio from an arbitrary list of stock tickers.}
+            \resumeItem{Calculated beta coefficients, standard deviation, Sharpe ratio, and stock option interest ratios using \textbf{Pandas} and \textbf{NumPy} to rank stocks and used \textbf{Monte} \textbf{Carlo} methods to determine optimal portfolio weight combinations.}
+            \resumeItem{Optimized code execution by threading and caching API calls to our financial data source, yielding a \textbf{20x} \textbf{decrease} in run time and achieving the highest class grade of \textbf{97.5\%} and \href{https://uwaterloo.ca/school-of-accounting-and-finance/news/congratulations-teams-won-cfm-101-team-competition}{\underline{2nd place}} in a real-world simulation competition.}
           \resumeItemListEnd
     
     \resumeSubHeadingListEnd
@@ -189,7 +199,7 @@ Management}{Waterloo, ON}
           \emph{JavaScript, HTML, Google Firebase, BeautifulSoup4, Google Places API, Azure CI/CD}}{Jun 2021}
           \resumeItemListStart
             \resumeItem{AtlasHacks II First Place Winner, byteKode Summer 2021 Runner-up.}
-            \resumeItem{Created a web application with a \textbf{team of 4} to display the best credit card to use in your wallet by determining where you are shopping using \textbf{Google Places} categories, \textbf{web-scraped} Rakuten referral links and a curated Canadian credit card list attracting \textbf{800 unique visitors} every month.}
+            \resumeItem{Created a web application in a team of 4 to display the best credit card to use in your wallet, stored on \textbf{Google Firebase}, by determining where you are shopping using \textbf{Google Places} categories, \textbf{web-scraped} Rakuten referral links using \textbf{BeautifulSoup4} and a curated Canadian credit card list attracting \textbf{800 unique visitors/mo}.}
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
@@ -198,10 +208,10 @@ Management}{Waterloo, ON}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{\href{https://github.com/Ti1mmy/CheckinWithme}{\underline{CheckinWithMe}}} $|$ 
-          \emph{Python, Natural Language Processing, AstraDB, Requests, Discord.py, Heroku CI/CD}}{May 2021}
+          \emph{Python, Natural Language Processing, AstraDB, Discord.py, Heroku CI/CD}}{May 2021}
           \resumeItemListStart
             \resumeItem{Mental Health Hacks Hackathon Winner: Best use of Linode Cloud, Best Domain Name from Domain.com.}
-            \resumeItem{A Discord bot that uses \textbf{tone/sentiment analysis} to detect and respond to users' moods leading to an increased awareness \textbf{about their mental health}.}
+            \resumeItem{Led a team of 4 to create and deploy a Discord bot in Python with \textbf{Heroku} that uses \textbf{tone/sentiment analysis} to detect and respond to users' moods, generating weekly personalized mood reports using data stored on \textbf{AstraDB} leading to an increased awareness about their mental health.}
           \resumeItemListEnd
 
     \resumeSubHeadingListEnd
@@ -209,27 +219,12 @@ Management}{Waterloo, ON}
     \resumeSubHeadingListStart
       \resumeProjectHeading
           {\textbf{\href{https://github.com/STR-Coding-Club/RobCoin}{\underline{RobCoin}}} $|$ 
-          \emph{Python, Flask, OpenSSL}}{Apr 2021 - Jun 2021}
+          \emph{Python, Flask, OpenSSL}}{Apr 2021 -- Jun 2021}
           \resumeItemListStart
-            \resumeItem{Co-created original \textbf{code} and \textbf{instructional material} for a \textbf{proof of work cryptocurrency} from scratch.}
+            \resumeItem{Co-created original Python code and instructional material for a \textbf{proof of work cryptocurrency} networked with Flask and OpenSSL from scratch.}
             \resumeItem{Tailored original instructional material alongside code development to educate Coding Club members in \textbf{blockchain, public/private-key cryptography, hash functions} and \textbf{distributed computing}. }
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
-
-
-%
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, JavaScript, HTML/CSS, SQL, Markdown, LaTeX.} \\
-     \textbf{Skills}{: CI/CD, Web Scraping, Microsoft Office Suite (Excel, Word, Outlook), SSH/Linux Shell.} \\
-     \textbf{Libraries}{: Flask, React, Bootstrap, Pandas, Matplotlib, yFinance, BeautifulSoup, Google Cloud Platform.} \\
-     \textbf{Tools/Applications}{: Git, GitHub, Heroku, VS Code, PyCharm, Jupyter Notebook, PuTTY, Ubuntu, GNU Bash.}
-    }}
- \end{itemize}
-
-
 %-------------------------------------------
 \end{document}
