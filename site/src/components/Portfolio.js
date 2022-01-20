@@ -26,7 +26,7 @@ function GithubPins() {
             <a href="https://github.com/STR-Coding-Club/RobCoin" target="_blank" rel="noopener noreferrer">
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=STR-Coding-Club&repo=RobCoin" alt="RobCoin" />
             </a>
-            <a href="https://github.com/time-management-school-app/SchoolDule" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SchoolDuleApp/SchoolDule" target="_blank" rel="noopener noreferrer">
                 <img id="github-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=time-management-school-app&repo=SchoolDule" alt="SchoolDule" />
             </a>
             <a href="https://gist.github.com/Ti1mmy/03a35f7816a1a3ba7c00df52d2bf80d0" target="_blank" rel="noopener noreferrer">
