@@ -4,3 +4,8 @@ updates:
     directory: "/site" # Location of package manifests
     schedule:
       interval: "daily"
+    assignees:
+      - "Ti1mmy"
+    labels:
+      - "pip"
+      - "dependencies"
