@@ -7,11 +7,6 @@ import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 import '../bootstrap/css/bootstrap.min.css';
 import '../App.min.css';
 
-// pdf-js
-// import { Document, Page, Outline, pdfjs} from 'react-pdf';
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-
 
 export function DownloadButtons() {
     return (
@@ -68,13 +63,6 @@ export function ResumeDisplay() {
     const resumedir = process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"
 
     return (
-        // <div className="ResumeDisplay">
-        //     <ResumeTitle />
-        //     <Document 
-        //         file={resumedir}>
-        //             <Page pageNumber={1} renderTextLayer={false}/>
-        //     </Document>
-        // </div>
         <div>
             <ResumeTitle />
             <iframe
