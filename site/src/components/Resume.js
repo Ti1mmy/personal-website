@@ -3,9 +3,11 @@ import { SepDot } from "./Misc.js";
 import { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
-
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import '../bootstrap/css/bootstrap.min.css';
 import '../App.min.css';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 export function DownloadButtons() {
@@ -59,18 +61,25 @@ function LatexButton() {
         )
 };
 
+function removeTextLayerOffset() {
+    const textLayers = document.querySelectorAll(".react-pdf__Page__textContent");
+      textLayers.forEach(layer => {
+        const { style } = layer;
+        style.top = "0";
+        style.left = "0";
+        style.transform = "";
+    });
+  }
+
 export function ResumeDisplay() {
     const resumedir = process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"
 
     return (
         <div>
             <ResumeTitle />
-            <iframe
-                className="ResumeDisplay"
-                src={resumedir}
-                type='application/pdf'
-                title=" "
-            />
+            <Document file={resumedir} className="ResumeDisplay">
+                <Page pageNumber={1} height={1000} onLoadSuccess={removeTextLayerOffset}/>
+            </Document>
         </div>
     )
 };
