@@ -30,6 +30,9 @@ jobs:
           app_location: "site" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
+          
+          # Skip deploy, but build on PRs
+          skip_deploy_on_missing_secrets: true
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
