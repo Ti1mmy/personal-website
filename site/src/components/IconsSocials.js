@@ -1,6 +1,6 @@
 import { Github, Linkedin, Twitter } from 'react-bootstrap-icons';
 
-import '../App.min.css';
+import '../App.css';
 
 export function GithubIcon() {
     return (

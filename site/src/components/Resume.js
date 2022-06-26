@@ -5,8 +5,8 @@ import Button from 'react-bootstrap/Button';
 import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import '../bootstrap/css/bootstrap.min.css';
-import '../App.min.css';
+import '../bootstrap/css/bootstrap.css';
+import '../App.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 

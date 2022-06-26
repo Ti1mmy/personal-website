@@ -1,6 +1,6 @@
 import { SepDot } from './Misc.js';
 
-import '../App.min.css';
+import '../App.css';
 
 export function Footer() {
     return (

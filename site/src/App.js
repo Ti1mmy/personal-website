@@ -1,4 +1,4 @@
-import './App.min.css';
+import './App.css';
 
 import { AboutMe } from './components/AboutMe.js';
 import { MyName, ContactWidgets, Program} from './components/Titles.js';

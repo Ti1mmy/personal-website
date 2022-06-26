@@ -6,8 +6,8 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 import { At } from 'react-bootstrap-icons';
 
-import '../bootstrap/css/bootstrap.min.css';
-import '../App.min.css';
+import '../bootstrap/css/bootstrap.css';
+import '../App.css';
 
 export function EmailButton() {
     const [show, setShow] = useState(false);

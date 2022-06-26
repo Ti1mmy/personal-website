@@ -1,4 +1,4 @@
-import '../App.min.css';
+import '../App.css';
 
 export function AboutMe() {
     return (
