@@ -5,9 +5,10 @@ import Button from 'react-bootstrap/Button';
 import { FileEarmarkPdfFill, FileEarmarkZipFill } from 'react-bootstrap-icons';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import 'react-pdf/dist/esm/Page/TextLayer.css';
 import '../bootstrap/css/bootstrap.css';
 import '../App.css';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 export function DownloadButtons() {
@@ -38,7 +39,7 @@ function ResumeButton() {
             </Button>
         </div>
     )
-  };
+};
 
 function LatexButton() {
     const [show, setShow] = useState(false);
@@ -61,16 +62,6 @@ function LatexButton() {
         )
 };
 
-function removeTextLayerOffset() {
-    const textLayers = document.querySelectorAll(".react-pdf__Page__textContent");
-      textLayers.forEach(layer => {
-        const { style } = layer;
-        style.top = "0";
-        style.left = "0";
-        style.transform = "";
-    });
-};
-
 export function ResumeDisplay() {
     const resumedir = process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"
 
@@ -78,7 +69,7 @@ export function ResumeDisplay() {
         <div>
             <ResumeTitle />
             <Document file={resumedir} className="ResumeDisplay">
-                <Page pageNumber={1} height={1000} onLoadSuccess={removeTextLayerOffset}/>
+                <Page pageNumber={1} height={1200} />
             </Document>
         </div>
     )
