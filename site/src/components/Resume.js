@@ -69,7 +69,7 @@ function removeTextLayerOffset() {
         style.left = "0";
         style.transform = "";
     });
-  }
+};
 
 export function ResumeDisplay() {
     const resumedir = process.env.PUBLIC_URL + "./resources/ZHENG-TIMOTHY_Resume.pdf"
