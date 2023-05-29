@@ -58,7 +58,7 @@
   "homepage": "https://timothyzheng.com/",
   "devDependencies": {
     "nth-check": "^2.1.1",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.24",
     "async": "3.2.4"
   }
 }
