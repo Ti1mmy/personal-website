@@ -27,7 +27,7 @@ export function Program() {
     return (
         <div className="MyProgram">
             <div>
-            2B <a id="program-link" href="https://uwaterloo.ca/computing-financial-management/" target="_blank" rel="noopener noreferrer">
+            3B <a id="program-link" href="https://uwaterloo.ca/computing-financial-management/" target="_blank" rel="noopener noreferrer">
                 Computing and Financial Management Student
             </a> 
             </div>
